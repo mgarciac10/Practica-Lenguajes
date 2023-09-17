@@ -1,0 +1,3 @@
+C:/Users/user/Desktop/Universidad/Semestre 2/Programing Languajes/C++/Practica/cmake-build-debug/CMakeFiles/Practica.dir
+C:/Users/user/Desktop/Universidad/Semestre 2/Programing Languajes/C++/Practica/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/user/Desktop/Universidad/Semestre 2/Programing Languajes/C++/Practica/cmake-build-debug/CMakeFiles/rebuild_cache.dir
