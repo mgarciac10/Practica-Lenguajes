@@ -8,7 +8,6 @@ public: int data; char cientifico; char evento;
     Nodo *next;
     Nodo *prev;
     Nodo();
-    Nodo(int data);
     char cientificoAleatorio() const;
     int numAleatorio();
 };

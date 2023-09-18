@@ -36,7 +36,7 @@ void Lista::display() {
     // iterate linked list
     while (temp != nullptr) {
       // Mostrar el valor del nodo
-      cout << "[" << temp->data << "|" << temp->cientifico << "]" << "-> ";
+      cout << "[" << temp->data << "|" << temp->cientifico << "|" << temp->evento << "]" << "-> ";
       // Visita el siguiente nodo
       temp = temp->next;
     }
@@ -53,6 +53,8 @@ bool Lista::primo(int data)
   if (data <= 1) {
     return false;
   }
+  if (data == 2)
+      return true;
   else {
     for (int i = 2; i * i <= data; i++) {
       if (data % i == 0) {
@@ -115,7 +117,7 @@ void Lista::eventos() {
       continue;
     }
     
-    if (eventoB && coprimos(A->data,temp->data) && !eventoC) {
+    if (eventoB && coprimos(A->data,temp->data)) {
       eventoC = true;
       temp->evento = 'C';
       cout << "Se ha producido un evento de tipo C: " << temp->data << endl;

@@ -8,7 +8,6 @@
 class Lista {
 public: Nodo *head;
     Lista();
-    void insertar(int value);
     void insertarCola(Nodo *nodo);
     void crearEventos();
     void display();

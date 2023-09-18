@@ -14,14 +14,6 @@ Nodo::Nodo() {
     this->evento = 'N';
 }
 
-Nodo::Nodo(int data) {
-    this->data = data;
-    this->next = nullptr;
-    this->prev = nullptr;
-    this->cientifico = cientificoAleatorio();
-    this->evento = 'N';
-}
-
 char Nodo::cientificoAleatorio() const {
   std::random_device rd;  // Dispositivo de generación de números aleatorios
   std::mt19937 gen(rd()); // Motor Mersenne Twister
